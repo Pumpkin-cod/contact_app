@@ -38,7 +38,6 @@ const ContactCard = (props) => {
                 className="edit alternate outline icon edit-icon"
                 onClick={handleEditClick}
             ></i>
-
             {showEditForm && (
                 <EditContactForm
                     contact={props.contact}
